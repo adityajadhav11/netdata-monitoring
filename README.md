@@ -19,11 +19,11 @@ The goal of this task is to monitor system and application performance metrics i
 ```bash
 docker run -d --name=netdata -p 19999:19999 --cap-add=SYS_PTRACE --security-opt apparmor=unconfined netdata/netdata
 
-Key Learnings
-Understood how to monitor real-time performance using Netdata.
+## Key Learnings
+   - Understood how to monitor real-time performance using Netdata.
 
-Explored system metrics like CPU, RAM, Disk, and Docker containers.
+   - Explored system metrics like CPU, RAM, Disk, and Docker containers.
 
-Learned how to deploy monitoring tools using Docker.
+   - Learned how to deploy monitoring tools using Docker.
 
-Got hands-on with logs inside a Docker container.
+   - Got hands-on with logs inside a Docker container.
